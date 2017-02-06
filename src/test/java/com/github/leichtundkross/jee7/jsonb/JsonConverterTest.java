@@ -14,7 +14,7 @@ public class JsonConverterTest {
     private JsonConverter converter = new JsonConverter();
 
     @Test
-    public void object2json_primatives() {
+    public void object2json_primitives() {
         Entity myEntity = new Entity();
         myEntity.stringAttribute = "sample String value";
         myEntity.intAttribute = 4711;
